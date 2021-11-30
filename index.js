@@ -97,7 +97,7 @@ function myapp(jagah) {
             clearsky.style.display = 'block';
             fewclouds.style.display = 'none';
         }
-        else if (tempF == "few clouds"){
+        else if (tempF == "few clouds" || tempF == "scattered clouds"){
             cloud_sky.style.display = 'none';
             smoke_sky.style.display = 'none';
             rain.style.display = 'none';
